@@ -231,7 +231,6 @@ function performMigration(direction, migrationName) {
   set[direction](null, migrationPath);
 }
 
-options.config = require('config');
 // invoke command
 
 var command = options.command || 'up';
